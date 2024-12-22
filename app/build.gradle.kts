@@ -43,12 +43,24 @@ dependencies {
     // NOTE: Retrofit 사용하기 위해 추가
     implementation("com.squareup.retrofit2:retrofit:2.11.0")
     implementation("com.squareup.retrofit2:converter-gson:2.11.0")
+    // NOTE: http 디버깅을 위해 추가
+    implementation("com.squareup.okhttp3:logging-interceptor:4.11.0")
+
+    // NOTE: AsyncImage 사용하기 위해 추가
+    //implementation("io.coil-kt.coil3:coil-compose:3.0.4")
+    implementation("io.coil-kt.coil3:coil-compose:3.0.4")
+    //implementation("io.coil-kt.coil3:coil-network-okhttp:3.0.4")
+    implementation("io.coil-kt.coil3:coil-network-okhttp:3.0.4")
 
     // NOTE: viewModel() 사용하기 위해 추가
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.7")
 
     // NOTE: observeAsState 사용하기 위해 추가
     implementation("androidx.compose.runtime:runtime-livedata:1.7.5")
+
+    // Note: Navigation 사용하기 위해 추가
+    //implementation("androidx.navigation:navigation-compose:2.8.5")
+    implementation("androidx.navigation:navigation-compose:2.8.5")
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)

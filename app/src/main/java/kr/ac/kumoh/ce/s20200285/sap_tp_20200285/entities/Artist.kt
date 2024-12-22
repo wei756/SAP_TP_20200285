@@ -4,9 +4,9 @@ import java.util.Date
 
 data class Artist(
     val id: Int,
-    val createdAt: Date,
+    val created_at: Date,
     val name: String,
-    val nameKr: String,
-    val profileImageUrl: String,
+    val name_kr: String,
+    val profile_image_url: String,
     val keyword: String,
 )
